@@ -11,6 +11,10 @@
 	box-shadow: 5px 5px 10px #ccc;
 	border-radius: 15px;
 }
+@media only screen and (max-width: 425px) {
+	/*Small smartphones [325px -> 425px]*/
+}
+
 .about-img-border {
     width: 300px;
     height: 300px;

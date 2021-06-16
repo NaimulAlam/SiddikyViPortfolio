@@ -4,12 +4,12 @@ import './About.css'
 
 const About = () => {
     return (
-        <section className="g-0 w-100 p-5 styleOfAbout" id="about">
+        <section className="w-100 p-md-5 p-sm-2 styleOfAbout" id="about">
             <div className="container mt-5 about-section d-flex flex-wrap">
                 <div className="sectionAbout">
                 </div>
 
-                <div className="row aboutBox p-4">
+                <div className="row aboutBox p-md-4 p-sm-1">
                     <div className="col-md-5 about-img d-flex justify-content-center">
                         <div className="about-img-border">
                             <img className="profileImage" src={profile} alt="" />
